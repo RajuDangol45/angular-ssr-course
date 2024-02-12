@@ -11,7 +11,7 @@
     "dev:ssr": "ng run angular-ssr:serve-ssr",
     "serve:ssr": "node dist/angular-ssr/server/main.js",
     "build:ssr": "ng build && ng run angular-ssr:server",
-    "prerender": "ng run angular-ssr:prerender --routes /courses/01 --routes /courses/02"
+    "prerender": "ng run angular-ssr:prerender"
   },
   "private": true,
   "dependencies": {
